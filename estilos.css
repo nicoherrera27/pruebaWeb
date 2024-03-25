@@ -23,8 +23,9 @@ body{
     border-left-width: 2px;
 }
 
-.menu{
-
+.foto{
+    width: 80%;
+    height: 90%;
 }
 
 .menu-item{
