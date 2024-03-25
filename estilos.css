@@ -17,4 +17,5 @@ body{
     width: 100%;
     background-color: red;
     padding: 1rem;
+    border-style: solid;
 }
