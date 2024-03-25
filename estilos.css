@@ -12,6 +12,9 @@ body{
     width: 20%;
     background-color: aquamarine;
     padding: 1rem;
+    border-bottom-style: solid;
+    border-bottom-color: blue;
+    border-bottom-width: 2px;
     
 }
 .container-right{
