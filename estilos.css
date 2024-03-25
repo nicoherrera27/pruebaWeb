@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: bisque;
+}
+
+.container-left{
+    width: 20%;
+    background-color: aquamarine;
+    padding: 1rem;
+}
+.container-right{
+    width: 100%;
+    background-color: red;
+    padding: 1rem;
+}
