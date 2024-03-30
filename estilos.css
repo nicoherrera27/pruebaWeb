@@ -53,7 +53,18 @@ header{
 .menu2{
     width: 1200px;
     margin: auto;
+    height: 100%;
+}
 
+nav{
+    height: 100%;
+
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+    
 }
 
 
