@@ -246,6 +246,19 @@ h2{
 }
 
 @media screen and (max-width: 720px){
+    article{
+        width: 600px;
+        margin:20px auto;
+        padding: 40px;
+        background: white;
+    
+    }
+    .foto-home{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
     .busqueda input{
         display: none;
     }
