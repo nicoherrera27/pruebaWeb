@@ -17,8 +17,6 @@ header{
     top: 0;
     left: 0;
     background: white;
-
-
 }
 
 .busqueda input{
@@ -38,7 +36,7 @@ header{
 }
 
 .logo img{
-    width: 75px;
+    width: 180px;
 }
 
 
@@ -77,7 +75,7 @@ nav > ul > li > a{
     width: 100%;
     height: 100%;
     display: flex;
-    color: white;
+    color: black;
     align-items: center;
     padding: 14px;
     text-transform: uppercase;
@@ -161,11 +159,35 @@ nav ul li ul li a:hover{
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 
-/*ARTICULOS*/
-main{
-    background:black ;
+body{
+    background: ghostwhite;
 }
 
+/*ARTICULOS*/
+main{
+    padding: 40px 20px;
+    margin-top: 194px;
+
+}
+
+article{
+    width: 1200px;
+    margin:20px auto;
+    padding: 40px;
+    background: white;
+
+}
+article p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300
+}
+
+article > p >img{
+    width: 400px;
+    margin-left:350px;
+    
+}
 /*RESPONSIVE*/
 
 .icon_menu{
