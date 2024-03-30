@@ -10,6 +10,19 @@
     text-decoration: none;
 }
 
+/*HEADER SUPERIOR*/
+header{
+    width: 100%;
+    position: fixed;
+
+
+
+}
+
+
+
+
+
 body{
     margin: 0;
     padding: 0;
