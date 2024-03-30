@@ -25,6 +25,31 @@ header{
     text-align: right;
 }
 
+.header-superior{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 body{
