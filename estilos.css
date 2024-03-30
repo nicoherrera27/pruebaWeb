@@ -206,8 +206,8 @@ nav ul li ul li a:hover{
         height: 150px;
         transition: all 300ms ease;
         z-index: 100;
-        opacity: 0;
-        visibility: hidden;
+        *opacity: 0;
+        *visibility: hidden;
     }
 
     nav > ul > li > a:hover{
@@ -232,6 +232,15 @@ nav ul li ul li a:hover{
 
     #label_check{
         display: block;
+    }
+    .icon_menu{
+        display: flex;
+    }
+
+    #check_menu:checked ~ nav > ul{ 
+        height: 150px;
+        visibility: visible;
+        opacity: 1;
     }
 }
 
