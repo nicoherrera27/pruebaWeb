@@ -170,7 +170,6 @@ body{
 main{
     padding: 40px 20px;
     margin-top: 194px;
-
 }
 
 article{
@@ -180,8 +179,10 @@ article{
     background: white;
 
 }
+
 article p{
     margin-top: 20px;
+
     font-size: 18px;
     font-weight: 300;
 }
@@ -189,11 +190,22 @@ h2{
     font-weight: bold;
 }
 
-article > p >img{
+.foto-home{
     width: 400px;
-    margin-left:350px;
-    
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
+
+.foto-bio{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
 /*RESPONSIVE*/
 
 .icon_menu{
@@ -276,65 +288,9 @@ article > p >img{
 }
 
 
-/*nav > ul > li:first-child:hover > a{
-    background-image: url(imagenes/home.png);
-    background-size: 24px;
-    background-repeat: no-repeat;
-    background-position: center center;
-}*/
 
 
 
 
 
-
-
-
-
-
-
-/*
-
-width="75px" height="100px" havel chiquito
-
-
-body{
-    margin: 0;
-    padding: 0;
-}
-
-.container{
-    display: flex;
-    height: 100vh;
-}
-
-.container-left{
-    width: 20%;
-    background-color: white;
-    padding: 1rem;
-    
-}
-.container-right{
-    width: 100%;
-    background-color: antiquewhite;
-    padding: 1rem;
-    border-left-style: solid;
-    border-left-color: black;
-    border-left-width: 2px;
-}
-
-.menu-item{
-    display: block;
-    margin-bottom: 1rem;
-    background-color: aqua;
-    border: 1px solid;
-    text-align: center;
-}
-
-.boton-inicio{
-    background-color: transparent;
-    padding: 0%;
-    margin: 0%;
-    border-style: hidden;
-}
 
