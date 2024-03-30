@@ -21,8 +21,10 @@ header{
 
 }
 
-.busqueda{
-    text-align: right;
+.busqueda input{
+    width: 300px;
+    padding: 10px;
+    
 }
 
 .header-superior{
