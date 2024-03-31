@@ -37,15 +37,19 @@
     <main>
         <article>
             <h2>Formulario de contacto</h2>
-            <form><input class="form-control" type="text" name="name" id="name" placeholder="Nombre"></form>
-      
-            <form><input class="form-control" type="text" name="email" id="email" placeholder="Email"></form>
-
-            <form><input class="form-control" type="text" name="telefono" id="telefono" placeholder="Telefono"></form>
+            <form action="https://formsubmit.co/herreranico42@gmail.com" method="POST">
+                <input class="form-control" type="text" name="name" id="name" placeholder="Nombre"></form>
+                <input class="form-control" type="text" name="email" id="email" placeholder="Email">
+                <input class="form-control" type="text" name="telefono" id="telefono" placeholder="Telefono">
+                <textarea name="mensaje" id="message" cols="30" rows="10" placeholder="Escriba aqui su mensaje"></textarea>
+                <button class="form-button" type="submit" id="submit">Enviar</button>
+            <form></form>
    
-            <textarea name="mensaje" id="message" cols="30" rows="10" placeholder="Escriba aqui su mensaje"></textarea>
+            
        
-            <button class="form-button" type="submit" id="submit">Enviar</button>
+            
+
+            <span class="error" id="error">Datos incompletos</span>
         </article>
         
 

@@ -338,6 +338,13 @@ h2{
     height: 40px;
 }
 
+.error{
+    color: red;
+    visibility: hidden
+}
 
+.show-error{
+    visibility: visible;
+}
 
 
