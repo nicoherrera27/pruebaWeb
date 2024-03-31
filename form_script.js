@@ -2,12 +2,12 @@ console.log("Hola Mundo");
 
 window.addEventListener('load',() => {
 
-    const submitButton = document.querySelector('#submit');
+    const submitButton = document.querySelector('#submitJS');
     submitButton.addEventListener ('click',(event) => {
-        const name = document.querySelector('#name').value;
-        const email = document.querySelector('#email').value;
-        const telefono = document.querySelector('#telefono').value;
-        const mensaje = document.querySelector('#message').value;
+        const name = document.querySelector('#nameJS').value;
+        const email = document.querySelector('#mailJS').value;
+        const telefono = document.querySelector('#telJS').value;
+        const mensaje = document.querySelector('#msjJS').value;
 
         if(name!='' && email!='' && telefono !='' && mensaje!=''){
             alert("Formulario enviado");
