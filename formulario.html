@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos.css">
+    <script src="form_script.js"></script>
     <title>Prueba Pagina web</title>
 </head>
 <body>
@@ -35,12 +36,19 @@
     </header>
     <main>
         <article>
-            <h2>Datos de contacto</h2>
-            <p>Telefono: 1234567890</p>
-            <p></p>
-            <a class="link-gmail" href="https://gmail.com">Email: un@email.com.ar</a>
-            <p>Facebook: bla bla bla</p>
+            <h2>Formulario de contacto</h2>
+            <form><input class="form-control" type="text" name="name" id="name" placeholder="Nombre"></form>
+      
+            <form><input class="form-control" type="text" name="email" id="email" placeholder="Email"></form>
+
+            <form><input class="form-control" type="text" name="telefono" id="telefono" placeholder="Telefono"></form>
+   
+            <textarea name="mensaje" id="message" cols="30" rows="10" placeholder="Escriba aqui su mensaje"></textarea>
+       
+            <button class="form-button" type="submit" id="submit">Enviar</button>
         </article>
+        
+
         
     </main>
 </body>

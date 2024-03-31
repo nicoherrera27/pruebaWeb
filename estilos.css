@@ -325,7 +325,18 @@ h2{
 
 
 
+/*formulario*/
+.form-control{
+    display: block;
+    margin: 0.5rem 0;
+}
 
+.form-button{
+    display: block;
+    margin: 0.5rem 0;
+    width: 80px;
+    height: 40px;
+}
 
 
 
